@@ -17,3 +17,31 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+class Vehicle:
+	pass
+
+class FlightVehicle(Vehicle):
+	# the parent is vehicle
+	pass
+
+class Starship(FlightVehicle):
+	# the parent is FlightVehicle
+	pass
+
+class Airplane(FlightVehicle):
+	# the parent is FlightVehicle
+	pass
+
+class GroundVehicle(Vehicle):
+	# the parent is vehicle
+	pass
+
+class Car(GroundVehicle):
+	# the parent is GroundVehicle
+	pass
+
+class Motorcycle(GroundVehicle):
+	# the parent is GroundVehicle
+	pass
+
