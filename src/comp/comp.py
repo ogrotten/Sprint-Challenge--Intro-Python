@@ -23,32 +23,42 @@ humans = [
 
 # Write a list comprehension that creates a list of names of everyone
 # whose name starts with 'D':
-print("Starts with D:")
-a = []
-print(a)
+# print("Starts with D:")
+# a = [person.name for person in humans if person.name.startswith("D")]
+# print(a)
+# print("\n")
 
 # Write a list comprehension that creates a list of names of everyone
 # whose name ends in "e".
-print("Ends with e:")
-b = []
-print(b)
+# print("Ends with e:")
+# b = [person.name for person in humans if person.name.endswith("e")]
+# print(b)
+# print("\n")
 
 # Write a list comprehension that creates a list of names of everyone
 # whose name starts with any letter between 'C' and 'G' inclusive.
-print("Starts between C and G, inclusive:")
-c = []
-print(c)
+# print("Starts between C and G, inclusive:")
+
+# # alph = "CDEFG"
+# # alphlist = [letter for letter in "CDEFG"]
+# # alphtuple = tuple(alphlist)
+# alphtuple = ("C","D","E","F","G")
+# c = [person.name for person in humans if person.name.startswith(alphtuple)]
+# print(c)
+# print("\n")
 
 # Write a list comprehension that creates a list of all the ages plus 10.
-print("Ages plus 10:")
-d = []
-print(d)
+# print("Ages plus 10:")
+# d = [person.age+10 for person in humans]
+# print(d)
+# print("\n")
 
 # Write a list comprehension that creates a list of strings which are the name
 # joined to the age with a hyphen, for example "David-31", for all humans.
-print("Name hyphen age:")
-e = []
-print(e)
+# print("Name hyphen age:")
+# e = [f"{person.name}-{person.age}" for person in humans]
+# print(e)
+# print("\n")
 
 # Write a list comprehension that creates a list of tuples containing name and
 # age, for example ("David", 31), for everyone between the ages of 27 and 32,
@@ -56,6 +66,7 @@ print(e)
 print("Names and ages between 27 and 32:")
 f = []
 print(f)
+print("\n")
 
 # Write a list comprehension that creates a list of new Humans like the old
 # list, except with all the names uppercase and the ages with 5 added to them.
@@ -63,6 +74,7 @@ print(f)
 print("All names uppercase:")
 g = []
 print(g)
+print("\n")
 
 # Write a list comprehension that contains the square root of all the ages.
 print("Square root of ages:")
